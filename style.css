@@ -365,83 +365,21 @@ section .title::after{
     background: #110269;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 20%;
 }
 .skills-content .right .php::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
+.skills-content .right .figma::before{
+    width: 80%;
 }
 
-/* teams section styling */
-.teams .title::after{
-    content: "who with me";
-}
-.teams .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover{
-    background: #110269;
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #110269;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img{
-    border-color: #fff;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid #110269!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #110269!important;
-}
 
 /* contact section styling */
 .contact .title::after{
