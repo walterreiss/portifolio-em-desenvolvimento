@@ -211,7 +211,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #110269;
+    color: #ffffff;
     background: none;
 }
 
@@ -484,7 +484,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #110269;
+    color: #c8ff00;
     text-decoration: none;
 }
 footer span a:hover{
