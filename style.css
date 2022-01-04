@@ -182,6 +182,7 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
+    color: #00eeff;
     font-size: 27px;
 }
 .home .home-content .text-2{
@@ -379,7 +380,9 @@ section .title::after{
 .skills-content .right .figma::before{
     width: 80%;
 }
-
+.skills-content .right .photoshop::before{
+    width: 90%;
+}
 
 /* contact section styling */
 .contact .title::after{
